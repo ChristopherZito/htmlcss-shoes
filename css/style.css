@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* main */
+.box {
+    height: 100vh;
+    position: relative;
+}
+
+.box img {
+    max-width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box h1 {
+
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+/* final product */
+.color1 {
+    background-color: red;
+    color: yellow;
+}
+.color2 {
+    background-color: green;
+    color: yellow;
+}
+.color3 {
+    background-color: yellow;
+    color: green;
+}
