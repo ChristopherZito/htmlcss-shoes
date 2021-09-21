@@ -32,15 +32,38 @@
 }
 
 /* final product */
-.color1 {
+#shoe1 {
     background-color: red;
     color: yellow;
 }
-.color2 {
+#shoe2 {
     background-color: green;
     color: yellow;
 }
-.color3 {
+#shoe3 {
     background-color: yellow;
     color: green;
+}
+
+/* bonus header */
+
+#top {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 99;
+    text-align: right;
+}
+
+#top a{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
 }
